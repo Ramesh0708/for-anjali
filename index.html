@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>For Anjali — a small birthday site</title>
+    <meta
+      name="description"
+      content="A little birthday website for Anjali Singh. Not grand. Made with her in mind."
+    />
+    <meta property="og:title" content="For Anjali" />
+    <meta
+      property="og:description"
+      content="It doesn’t have to be expensive or grand. Just something made with love."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,460;1,9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#letter">Skip to the letter</a>
+
+    <header class="top">
+      <a class="mark" href="#top">for anjali</a>
+      <p class="top-note">a small site · mumbai in mind</p>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="ghost" aria-hidden="true">ANJALI</p>
+        <p class="eyebrow">frontend · ui/ux · mumbai</p>
+        <h1 id="hero-title">
+          happy<br />birthday,
+          <em>Anjali.</em>
+        </h1>
+        <p class="lede">
+          It doesn’t have to be expensive or grand. Just something made with
+          love, with you in mind.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-ink" href="#letter">Read the letter</a>
+          <a class="btn btn-ghost" href="#cake">Light a candle</a>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>itna toh main bhi deserve karti hoon na</span>
+          <span>haan</span>
+          <span>itna toh</span>
+          <span>aur isse thoda zyada bhi</span>
+          <span>itna toh main bhi deserve karti hoon na</span>
+          <span>haan</span>
+          <span>itna toh</span>
+          <span>aur isse thoda zyada bhi</span>
+        </div>
+      </div>
+
+      <section id="letter" class="letter-wrap" aria-labelledby="letter-title">
+        <p class="kicker">01 — the letter</p>
+        <h2 id="letter-title">You asked for a little website.<br />So here is one.</h2>
+        <article class="letter">
+          <p class="quote">
+            “i just want someone to make me a little website for my birthday, or
+            literally anything, just to make me feel special at least once.”
+          </p>
+          <p>
+            I saw that, and the line under it. <em>Itna toh main bhi deserve karti hoon na?</em>
+            Haan. Itna toh. Aur isse thoda zyada bhi.
+          </p>
+          <p>
+            This isn’t a campaign and it isn’t a pitch. It’s a page that exists
+            because you said, quietly, that you wanted to feel considered. You
+            already do that for other people’s products — Arashiyama, JMarket,
+            Utsav, Superteam Brazil — the dense grids, the slow-connection pages,
+            the type that knows when to shut up. Somebody should hand a page
+            back to you.
+          </p>
+          <p>
+            You call yourself “just a dev who makes web apps look and feel
+            awesome.” The work is more specific than that. You design things
+            that have to hold up in front of real users, then you build them.
+            WeSee, Mumbai, late nights in the contribution graph. That’s a
+            person, not a moodboard.
+          </p>
+          <p class="sign">
+            Happy birthday, whenever the day lands.<br />
+            You deserve to feel special. At least once. And then again.
+          </p>
+        </article>
+      </section>
+
+      <section class="work" aria-labelledby="work-title">
+        <p class="kicker">02 — what I noticed</p>
+        <h2 id="work-title">Selected things,<br />kept on purpose.</h2>
+        <ul class="cards">
+          <li class="card card-wine">
+            <p class="card-kicker">travel experience</p>
+            <h3>Arashiyama</h3>
+            <p>A destination told like a story, with a path from looking to arriving. Built for people on slow connections, not just fast laptops.</p>
+          </li>
+          <li class="card card-paper">
+            <p class="card-kicker">marketplace</p>
+            <h3>JMarket</h3>
+            <p>Product-first, scannable, dense without becoming noise. The kind of grid that still feels calm on a phone.</p>
+          </li>
+          <li class="card card-blush">
+            <p class="card-kicker">fine jewellery</p>
+            <h3>Utsav</h3>
+            <p>Quiet type, generous space, photographs given room. Restraint is also a skill.</p>
+          </li>
+          <li class="card card-indigo">
+            <p class="card-kicker">community</p>
+            <h3>Superteam Brazil</h3>
+            <p>A dark theme that still has hierarchy. Landing, members, ecosystem — aligned to someone else’s brand, and still yours in the craft.</p>
+          </li>
+        </ul>
+        <p class="also">
+          Also on the shelf: Twenty Cents, Kaizen Arts, and a portfolio at
+          <a href="https://anjali.monster" target="_blank" rel="noreferrer">anjali.monster</a>
+          that already knows how to speak in big type.
+        </p>
+      </section>
+
+      <section id="cake" class="cake-section" aria-labelledby="cake-title">
+        <p class="kicker kicker-light">03 — a very small ritual</p>
+        <h2 id="cake-title">Light it. Make a wish.<br />The timeline can wait.</h2>
+        <div class="cake" id="cake-scene">
+          <div class="candle-row" role="group" aria-label="Three candles">
+            <button class="candle" type="button" aria-pressed="false" aria-label="Light the first candle">
+              <span class="flame" aria-hidden="true"></span>
+              <span class="stick"></span>
+            </button>
+            <button class="candle" type="button" aria-pressed="false" aria-label="Light the second candle">
+              <span class="flame" aria-hidden="true"></span>
+              <span class="stick"></span>
+            </button>
+            <button class="candle" type="button" aria-pressed="false" aria-label="Light the third candle">
+              <span class="flame" aria-hidden="true"></span>
+              <span class="stick"></span>
+            </button>
+          </div>
+          <div class="cake-body" aria-hidden="true">
+            <div class="icing"></div>
+            <div class="layer"></div>
+            <div class="icing icing-2"></div>
+            <div class="layer layer-2"></div>
+            <div class="plate"></div>
+          </div>
+        </div>
+        <p class="wish" id="wish" role="status" hidden>
+          All three. That’s the whole ceremony. Wish for work that feels like yours, and a year that feels like it was made with you in mind.
+        </p>
+        <p class="hint" id="hint">Tap each candle.</p>
+      </section>
+
+      <section class="close" aria-labelledby="close-title">
+        <h2 id="close-title">Itna toh.</h2>
+        <p>
+          If this made you feel even a little bit special, it did the job.
+          If it didn’t, the intention still stands — you were thought of, on purpose.
+        </p>
+        <ul class="links">
+          <li><a href="https://anjali.monster" target="_blank" rel="noreferrer">anjali.monster</a></li>
+          <li><a href="https://github.com/Anjalisinggh" target="_blank" rel="noreferrer">github</a></li>
+          <li><a href="https://www.behance.net/anjaliisingh" target="_blank" rel="noreferrer">behance</a></li>
+          <li><a href="https://www.linkedin.com/in/anjali-singh-82bb42302" target="_blank" rel="noreferrer">linkedin</a></li>
+        </ul>
+        <p class="from">From Ramesh · October 2026<br />for @anjalisinggh12</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
